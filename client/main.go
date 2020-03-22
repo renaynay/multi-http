@@ -11,6 +11,8 @@ import (
 	"github.com/gorilla/websocket"
 )
 
+// taken from https://github.com/gorilla/websocket/blob/master/examples/echo/client.go
+
 var addr = flag.String("addr", "localhost:8080", "http service address")
 
 func main() {
